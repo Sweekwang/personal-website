@@ -1,0 +1,17 @@
+.Button {
+    padding: 12px 22px;
+    color: var(--hoverColor);;
+    border-color: var(--hoverColor);;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 18px;
+    background-color: rgba(20, 255, 236, 0);
+}
+
+.Button:hover{
+    background-color: rgba(20, 255, 236, 0.1);
+} 

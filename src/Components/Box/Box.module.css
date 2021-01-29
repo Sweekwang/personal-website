@@ -1,0 +1,167 @@
+.Box{
+    position: relative;
+    width: 1400px;
+    box-sizing: border-box;
+}
+
+.f{
+    min-height: 91vh;
+}
+
+.s600{
+    min-height: 600px;
+}
+
+.contact{
+    min-height: 450px;
+}
+
+.s6002{
+    min-height: 600px;
+}
+
+.s1000{
+    min-height: 1500px;
+}
+
+.s1500{
+    min-height: 2500px;
+}
+
+.navMargin{
+    margin: 80px auto 0 auto;
+}
+
+.zeroMargin{
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1399px) {
+    .Box{
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .f{
+        min-height: 800px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .s600{
+        min-height: 800px;
+    }
+
+    .s6002{
+        min-height: 800px;
+    }
+
+    .f{
+        min-height: 600px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .s1000{
+        min-height: 2500px;
+    }
+
+    .s1500{
+        min-height: 3500px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .s600{
+        min-height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .s600{
+        min-height: 1100px;
+    }
+
+    .s6002{
+        min-height: 900px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .s600{
+        min-height: 1000px;
+    }
+
+    .s6002{
+        min-height: 900px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .s600{
+        min-height: 1100px;
+    }
+
+    .s6002{
+        min-height: 800px;
+    }
+
+    .s1500{
+        min-height: 3300px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .s600{
+        min-height: 1200px;
+    }
+
+    .s6002{
+        min-height: 1200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .s600{
+        min-height: 1350px;
+    }
+
+    .s6002{
+        min-height: 1350px;
+    }
+
+    .s1500{
+        min-height: 3600px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .s600{
+        min-height: 1450px;
+    }
+
+    .s6002{
+        min-height: 1450px;
+    }
+
+    .s1500{
+        min-height: 4000px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .s600{
+        min-height: 1500px;
+    }
+
+    .s6002{
+        min-height: 1500px;
+    }
+    
+}

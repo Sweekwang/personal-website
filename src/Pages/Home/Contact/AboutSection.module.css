@@ -1,0 +1,63 @@
+.AboutArea{
+    box-sizing: border-box;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.AboutArea h1{
+    text-align: center;
+}
+
+
+.AboutArea p{
+    text-align: center;
+}
+
+.flexBox{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.right{
+    width: 60%;
+}
+
+.left{
+    position: relative;
+    width: 40%;
+}
+
+.brands{
+    font-size: 120px;
+    color: var(--inactiveColor);
+    margin-bottom: 16px;
+    margin: 0 30px;
+}
+
+.brands:hover {
+    color: var(--hoverColor);
+}
+
+@media only screen and (max-width: 500px) {
+    .brands{
+        font-size: 80px;
+        color: var(--inactiveColor);
+        margin-bottom: 16px;
+        margin: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .brands{
+        font-size: 50px;
+        color: var(--inactiveColor);
+        margin-bottom: 16px;
+        margin: 0 30px;
+    }
+}

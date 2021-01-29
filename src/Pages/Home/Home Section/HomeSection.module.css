@@ -1,0 +1,131 @@
+.HomeArea{
+    box-sizing: border-box;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.emo {
+    margin: 5px;
+    border-width: 5px;
+    border-color: var(--hoverColor);
+    border-style: solid;
+    border-radius: 500px;
+    width: 200px;
+    transition: 0.3s;
+    border-spacing: 0px;
+}
+
+.emo:hover {
+    border-width: 10px;
+    margin: 0;
+    border-spacing: 0px;
+}
+
+.arrow{
+    border: solid var(--hoverColor);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 8px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: rotate(45deg) translate(-50%, -50%);
+    animation-name: down;
+    animation-duration: 1s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes down {
+    0%   {bottom: 5%;}
+    100% {bottom: -1%;}
+  }
+
+@media only screen and (max-width: 1399px) {
+    .arrow{
+        visibility: hidden;
+
+    }
+
+}
+
+
+
+.small{
+    margin: 12px 0 0 0;
+    font-weight: lighter;
+    font-size: 16px;
+    color: var(--hoverColor);
+}
+
+.HomeArea h1{
+    margin: 0;
+    color: #acdbdf;
+    font-size: 48px;
+}
+
+.HomeArea h2{
+    margin: 0;
+    color: #d4d4d4;
+}
+
+.subtext{
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .subtext{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+     }
+
+     .emo {
+        width: 150px;
+    }
+
+    .small{
+        margin: 0;
+    }
+
+    .HomeArea h1{
+        font-size: 38px;
+    }
+
+    .HomeArea h2{
+        font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .HomeArea{
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .HomeArea{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .HomeArea h1{
+        font-size: 28px;
+    }   
+    .HomeArea h2{
+        font-size: 24px;
+    }  
+}

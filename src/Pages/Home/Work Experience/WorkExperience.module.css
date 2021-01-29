@@ -1,0 +1,110 @@
+.WorkArea{
+    box-sizing: border-box;
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.Tab{
+    margin-left: 180px;
+    height: 80px;
+}
+
+.LeftTab{
+    width: 95px;
+}
+
+.Leftp{
+    color: var(--hoverColor);
+    border-color: var(--hoverColor);
+    border-width: 1px;
+    border-style: solid;
+    padding: 12px 22px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.Leftp:hover{
+    background-color: rgba(20, 255, 236, 0.1);
+}
+
+.LeftpActivated{
+    background-color: rgba(20, 255, 236, 0.25);
+    font-weight: bold;
+}
+
+.RightContent{
+    margin-left: 180px;
+}
+
+.RightContent h3{
+    margin: 0;
+}
+
+.RightContent li{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1245px) {
+    .WorkArea{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .Tab{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .Tab{
+        display: none;
+    }
+
+    .LeftTab{
+        width: 100%;
+        height: 65px;
+        padding: 0;
+    }
+
+    .Leftp{
+        display: inline-block;
+        width: 25%;
+        box-sizing: border-box;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
+    .RightContent{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .Leftp{
+        width: 50%;
+    }
+
+    .RightContent{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .WorkArea{
+        width: 90%;
+    }
+}
